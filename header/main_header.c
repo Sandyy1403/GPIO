@@ -1,4 +1,3 @@
-#include<stdio.h>
 #define portink1 (*(volatile char *)0x107)
 #define portoutk1 (*(volatile char *)0x108)
 #define portfinf1 (*(volatile char *)0x30)

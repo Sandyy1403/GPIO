@@ -1,6 +1,5 @@
 //count binary
 //use main_header
-#include<stdio.h>
 #include "sandy.h"
 void setup() 
 {  

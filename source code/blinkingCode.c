@@ -1,5 +1,4 @@
 //use main_header.c
-#include<stdio.h>
  #include "sandy.h"
 void setup() 
 {  
