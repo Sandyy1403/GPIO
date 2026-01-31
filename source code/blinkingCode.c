@@ -2,7 +2,7 @@
  #include "sandy.h"
 void setup() 
 {  
-  sandy(0xff);
+  portink(0xff);
   
 }
 void loop()

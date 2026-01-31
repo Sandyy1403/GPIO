@@ -1,5 +1,3 @@
-//count binary
-//use main_header
 #include "sandy.h"
 void setup() 
 {  
@@ -14,11 +12,12 @@ void loop()
   volatile long i;
   volatile long x;
   volatile char c;
+  x=0b01111111;
   // count binary number.
-  for(x=0;x<255;x++)
+  for(x=0;x<=8;x++)
   {   
-     out1(x);
-    delay();
+     segment(x);
+     delay();
   }
 
   
